@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d568db22-e7a7-4a95-a2aa-510eef33f3d7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/src/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/HELP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/annotations-8.9.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/annotations-8.9.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/aopalliance-core-62.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/aopalliance-core-62.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/byte-buddy-1.10.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/byte-buddy-1.10.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/classgraph-4.8.52.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/classgraph-4.8.52.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/classmate-62.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/classmate-62.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/commons-lang3-62.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/commons-lang3-62.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/commons-text-62.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/commons-text-62.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/dom4j-62.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/dom4j-62.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/entity-assist-62.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/entity-assist-62.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/exceptions-8.9.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/exceptions-8.9.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/guava-62.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/guava-62.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/guice-62.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/guice-62.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/guice-persist-62.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/guice-persist-62.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/guiced-injection-62.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/guiced-injection-62.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/guiced-log-master-62.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/guiced-log-master-62.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/guiced-persistence-62.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/guiced-persistence-62.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/hibernate-commons-annotations-62.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/hibernate-commons-annotations-62.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/hibernate-core-62.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/hibernate-core-62.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/jackson-annotations-2.10.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/jackson-annotations-2.10.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/jackson-annotations-2.12.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/jackson-annotations-2.12.7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/jackson-core-2.10.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/jackson-core-2.10.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/jackson-core-2.12.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/jackson-core-2.12.7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/jackson-databind-2.10.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/jackson-databind-2.10.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/jackson-databind-2.12.7.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/jackson-databind-2.12.7.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/jackson-datatype-jdk8-2.10.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/jackson-datatype-jdk8-2.10.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/jackson-module-guice-2.10.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/jackson-module-guice-2.10.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/jakarta.activation-62.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/jakarta.activation-62.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/jakarta.annotation-api-62.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/jakarta.annotation-api-62.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/jakarta.persistence-api-62.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/jakarta.persistence-api-62.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/jakarta.validation-api-62.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/jakarta.validation-api-62.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/jakarta.xml.bind-api-62.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/jakarta.xml.bind-api-62.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/jandex-62.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/jandex-62.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/javassist-62.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/javassist-62.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/javax.inject-1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/javax.inject-1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/javax.inject-62.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/javax.inject-62.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/javax.json-api-1.1.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/javax.json-api-1.1.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/javax.security.jacc-62.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/javax.security.jacc-62.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/javax.servlet-api-62.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/javax.servlet-api-62.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/javax.transaction-62.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/javax.transaction-62.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/jboss-logmanager-62.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/jboss-logmanager-62.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/jjwt-0.12.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/jjwt-0.12.6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/jjwt-api-0.12.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/jjwt-api-0.12.6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/jjwt-impl-0.12.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/jjwt-impl-0.12.6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/jjwt-jackson-0.12.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/jjwt-jackson-0.12.6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/json-62.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/json-62.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/jsr305-3.0.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/jsr305-3.0.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/spring-aop-5.2.15.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/spring-aop-5.2.15.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/spring-beans-5.2.15.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/spring-beans-5.2.15.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/spring-context-5.2.15.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/spring-context-5.2.15.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/spring-core-5.2.15.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/spring-core-5.2.15.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/spring-expression-5.2.15.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/spring-expression-5.2.15.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/spring-jcl-5.2.15.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/spring-jcl-5.2.15.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/spring-security-config-5.4.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/spring-security-config-5.4.7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/spring-security-core-5.4.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/spring-security-core-5.4.7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/stax-ex-1.8.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/stax-ex-1.8.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/lib/stax2-api-4.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/stax2-api-4.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/src/main/java/com/mariana/agendamento/AgendamentoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/AgendamentoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/src/main/java/com/mariana/agendamento/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/src/main/java/com/mariana/agendamento/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/src/main/java/com/mariana/agendamento/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/src/main/java/com/mariana/agendamento/controller/ContatoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/controller/ContatoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/src/main/java/com/mariana/agendamento/dto/AuthRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/dto/AuthRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/src/main/java/com/mariana/agendamento/dto/AuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/dto/AuthResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/src/main/java/com/mariana/agendamento/dto/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/dto/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/src/main/java/com/mariana/agendamento/dto/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/dto/RegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/src/main/java/com/mariana/agendamento/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/src/main/java/com/mariana/agendamento/model/Contato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/model/Contato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/src/main/java/com/mariana/agendamento/model/ERole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/model/ERole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/src/main/java/com/mariana/agendamento/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/src/main/java/com/mariana/agendamento/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/model/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/src/main/java/com/mariana/agendamento/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/src/main/java/com/mariana/agendamento/repository/ContatoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/repository/ContatoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/src/main/java/com/mariana/agendamento/repository/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/repository/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/src/main/java/com/mariana/agendamento/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/src/main/java/com/mariana/agendamento/security/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/security/JwtAuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/src/main/java/com/mariana/agendamento/security/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/security/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/src/main/java/com/mariana/agendamento/security/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/security/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/src/main/java/com/mariana/agendamento/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/src/main/java/com/mariana/agendamento/service/ContatoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/service/ContatoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/src/main/java/com/mariana/agendamento/service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/service/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/src/main/java/com/mariana/agendamento/service/PasswordEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/service/PasswordEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/src/main/java/com/mariana/agendamento/util/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/util/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-backend/test/java/com/mariana/agendamento/AgendamentoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mariana/agendamento/AgendamentoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda-telefonica-frontend" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Spring Component" />
+        <option value="com.intellij.jpb.JpaEntity" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;marianadesouzaaguiar&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/marianadesouzaaguiar/agendamento.git&quot;,
+    &quot;accountId&quot;: &quot;0900c3d7-c6b6-4706-8e5b-816af320525a&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="30qsgI4yoOR4w8TrZkd4kBRml9q" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HelloWorld.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.AgendamentoApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Mariana/Downloads/agendamento/agendamento",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Mariana/Downloads/agendamento/agendamento/agenda-telefonica-backend/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mariana.agendamento.config" />
+      <recent name="com.mariana.agendamento.service" />
+      <recent name="com.mariana.agendamento.repository" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mariana\Downloads\agendamento\agendamento\src" />
+      <recent name="C:\Users\Mariana\Downloads\agendamento\agendamento\agenda-telefonica-backend\src\main" />
+      <recent name="C:\Users\Mariana\Downloads\agendamento\agendamento\agenda-telefonica-backend\src" />
+      <recent name="C:\Users\Mariana\Downloads\agendamento\agendamento\agenda-telefonica-backend" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AgendamentoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="agendamento" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mariana.agendamento.AgendamentoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d568db22-e7a7-4a95-a2aa-510eef33f3d7" name="Changes" comment="" />
+      <created>1754366549330</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1754366549330</updated>
+      <workItem from="1754366562670" duration="2239000" />
+      <workItem from="1754520381131" duration="4837000" />
+      <workItem from="1754525338501" duration="17766000" />
+      <workItem from="1754545901915" duration="1092000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
