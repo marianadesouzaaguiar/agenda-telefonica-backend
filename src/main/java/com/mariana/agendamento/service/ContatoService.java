@@ -2,43 +2,50 @@ package com.mariana.agendamento.service;
 
 import com.mariana.agendamento.model.Contato;
 import com.mariana.agendamento.repository.ContatoRepository;
-import com.mariana.agendamento.exception.ResourceNotFoundException;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Service
 public class ContatoService {
 
-    private final ContatoRepository repository;
+    @Autowired
+    private ContatoRepository repository;
 
-    public ContatoService(ContatoRepository repository) {
-        this.repository = repository;
+    public Contato salvar(Contato contato) {
+        if (repository.existsByCelular(contato.getCelular())) {
+            throw new RuntimeException("Contato já cadastrado com este celular.");
+        }
+        contato.setDataCadastro(LocalDateTime.now());
+        contato.setAtivo("S");
+        contato.setFavorito("N");
+        return repository.save(contato);
     }
 
-    public List<Contato> getAllContatos() {
+    public List<Contato> listar() {
         return repository.findAll();
     }
 
-    public Contato getContatoById(Long id) {
-        return repository.findById(id)
-                .orElseThrow(() -> new ResourceNotFoundException("Contato não encontrado com id " + id));
-    }
-
-    public Contato createContato(Contato contato) {
+    public Contato atualizar(Long id, Contato atualizado) {
+        Contato contato = repository.findById(id).orElseThrow();
+        contato.setNome(atualizado.getNome());
+        contato.setEmail(atualizado.getEmail());
+        contato.setTelefone(atualizado.getTelefone());
+        contato.setCelular(atualizado.getCelular());
         return repository.save(contato);
     }
 
-    public Contato updateContato(Long id, Contato contatoDetails) {
-        Contato contato = getContatoById(id);
-        contato.setNome(contatoDetails.getNome());
-        contato.setEmail(contatoDetails.getEmail());
-        contato.setTelefone(contatoDetails.getTelefone());
-        return repository.save(contato);
+    public void inativar(Long id) {
+        Contato contato = repository.findById(id).orElseThrow();
+        contato.setAtivo("N");
+        repository.save(contato);
     }
 
-    public void deleteContato(Long id) {
-        Contato contato = getContatoById(id);
-        repository.delete(contato);
+    public void marcarFavorito(Long id) {
+        Contato contato = repository.findById(id).orElseThrow();
+        contato.setFavorito(contato.getFavorito().equals("S") ? "N" : "S");
+        repository.save(contato);
     }
 }

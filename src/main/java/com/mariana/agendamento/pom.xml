@@ -52,12 +52,13 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- H2 Database (pode trocar por PostgreSQL ou MySQL depois) -->
+        <!-- PostgreSQL Driver -->
         <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <scope>runtime</scope>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.7.3</version> <!-- ou a versão mais recente -->
         </dependency>
+
 
     </dependencies>
 

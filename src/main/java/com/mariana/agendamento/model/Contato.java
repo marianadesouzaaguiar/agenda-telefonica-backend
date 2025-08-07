@@ -1,49 +1,37 @@
 package com.mariana.agendamento.model;
 
 import jakarta.persistence.*;
+import lombok.Data;
+
+import java.time.LocalDateTime;
 
 @Entity
+@Table(name = "contato", schema = "desafio")
+@Data
 public class Contato {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "contato_id")
     private Long id;
 
+    @Column(name = "contato_nome", length = 100)
     private String nome;
+
+    @Column(name = "contato_email", length = 255)
     private String email;
+
+    @Column(name = "contato_celular", length = 11, unique = true)
+    private String celular;
+
+    @Column(name = "contato_telefone", length = 10)
     private String telefone;
 
-    // Getters e setters
+    @Column(name = "contato_sn_favorito", length = 1)
+    private String favorito;
 
-    public Long getId() {
-        return id;
-    }
+    @Column(name = "contato_sn_ativo", length = 1)
+    private String ativo;
 
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getTelefone() {
-        return telefone;
-    }
-
-    public void setTelefone(String telefone) {
-        this.telefone = telefone;
-    }
+    @Column(name = "contato_dh_cad")
+    private LocalDateTime dataCadastro;
 }
