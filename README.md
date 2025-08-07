@@ -57,13 +57,21 @@ O backend utiliza um banco PostgreSQL com o seguinte schema e tabela:
 create schema desafio;
 
 create table desafio.contato(
+
 contato_id serial primary key,
+
 contato_nome varchar(100),
+
 contato_email varchar(255),
+
 contato_celular varchar(11),
+
 contato_telefone varchar(10),
+
 contato_sn_favorito character(1),
+
 contato_sn_ativo character(1),
+
 contato_dh_cad timestamp without time zone
 );
 
@@ -94,14 +102,23 @@ mvn spring-boot:run
 📁 Estrutura de Diretórios
 
 src/
+
 ├── app/
+
 │   ├── components/        # Componentes reutilizáveis
+
 │   ├── pages/             # Telas (listar, cadastrar, editar)
+
 │   ├── services/          # Serviços de API
+
 │   ├── guards/            # Rotas protegidas
+
 │   ├── app.module.ts      # Módulo principal
+
 │   └── app-routing.module.ts # Rotas
 
+
 👩‍💻 Autora
+
 Mariana Aguiar
 Desenvolvedora Frontend
