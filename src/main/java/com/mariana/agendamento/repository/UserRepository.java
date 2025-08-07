@@ -1,10 +1,10 @@
 package com.mariana.agendamento.repository;
 
-import com.mariana.agendamento.entity.User;
+import com.mariana.agendamento.model.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
 
-public interface UserRepository extends JpaRepository<User, Long> {
-    Optional<User> findByUsername(String username);
+public interface UserRepository extends JpaRepository<Usuario, Long> {
+    Optional<Usuario> findByEmail(String email);
 }

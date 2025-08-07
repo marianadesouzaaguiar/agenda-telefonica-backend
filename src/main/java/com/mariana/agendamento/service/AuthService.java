@@ -1,11 +1,13 @@
 package com.mariana.agendamento.service;
 
 import com.mariana.agendamento.dto.*;
-import com.mariana.agendamento.model.*;
-import com.mariana.agendamento.repository.UsuarioRepository;
+import com.mariana.agendamento.model.Usuario;
+import com.mariana.agendamento.model.Role;
+import com.mariana.agendamento.repository.UserRepository;
 import com.mariana.agendamento.security.JwtService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.security.authentication.*;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -16,7 +18,7 @@ import java.time.LocalDate;
 @RequiredArgsConstructor
 public class AuthService {
 
-    private final UsuarioRepository usuarioRepository;
+    private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;
     private final JwtService jwtService;
     private final AuthenticationManager authenticationManager;
@@ -31,8 +33,7 @@ public class AuthService {
                 .role(Role.USER)
                 .build();
 
-        usuarioRepository.save(user);
-
+        userRepository.save(user);
         String jwtToken = jwtService.generateToken(user);
         return new AuthResponse(jwtToken);
     }
@@ -42,7 +43,7 @@ public class AuthService {
                 new UsernamePasswordAuthenticationToken(request.getEmail(), request.getSenha())
         );
 
-        Usuario user = usuarioRepository.findByEmail(request.getEmail())
+        Usuario user = userRepository.findByEmail(request.getEmail())
                 .orElseThrow(() -> new UsernameNotFoundException("Usuário não encontrado"));
 
         String jwtToken = jwtService.generateToken(user);

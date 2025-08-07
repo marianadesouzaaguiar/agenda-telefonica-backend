@@ -1,5 +1,7 @@
 package com.mariana.agendamento.util;
 
+import jakarta.persistence.*;
+
 @Entity
 public class Role {
     @Id
