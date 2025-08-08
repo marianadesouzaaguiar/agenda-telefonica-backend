@@ -1,39 +1,25 @@
 package com.mariana.agendamento.model;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
-
-import java.time.LocalDateTime;
+import lombok.Data;
 
 @Entity
-@Table(name = "contato")
-@Getter
-@Setter
+@Data
 public class Contato {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "contato_nome")
     private String nome;
-
-    @Column(name = "contato_email")
-    private String email;
-
-    @Column(name = "contato_celular", unique = true)
     private String celular;
-
-    @Column(name = "contato_telefone")
+    private String email;
     private String telefone;
 
-    @Column(name = "contato_sn_favorito")
-    private String favorito;
+    // Armazenado como "S" ou "N" no banco
+    @Column(length = 1)
+    private String favorito = "N";
 
-    @Column(name = "contato_sn_ativo")
-    private String ativo;
-
-    @Column(name = "contato_dh_cad")
-    private LocalDateTime dataCadastro;
+    @Column(length = 1)
+    private String ativo = "S";
 }

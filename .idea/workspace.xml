@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d568db22-e7a7-4a95-a2aa-510eef33f3d7" name="Changes" comment="integracao de API e criacao de bd">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/config/WebConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/AgendamentoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/AgendamentoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/controller/TestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/model/Contato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/model/Contato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +169,7 @@
       <workItem from="1754545901915" duration="11193000" />
       <workItem from="1754583526021" duration="10055000" />
       <workItem from="1754601828717" duration="25854000" />
-      <workItem from="1754632640167" duration="2299000" />
+      <workItem from="1754632640167" duration="6393000" />
     </task>
     <task id="LOCAL-00001" summary="integracao de API e criacao de bd">
       <option name="closed" value="true" />
