@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="giffing.bucket4j.spring.boot.starter.springboot1" type="repository">
+    <properties maven-id="com.giffing.bucket4j.spring.boot.starter:bucket4j-spring-boot-starter-springboot1:0.1.15" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/bucket4j-spring-boot-starter-springboot1-0.1.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bucket4j-spring-boot-starter-context-0.1.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-boot-actuator-1.5.10.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-boot-1.5.10.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-boot-autoconfigure-1.5.10.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-databind-2.8.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-annotations-2.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-core-2.8.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-core-4.3.14.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-context-4.3.14.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-aop-4.3.14.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-beans-4.3.14.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-expression-4.3.14.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

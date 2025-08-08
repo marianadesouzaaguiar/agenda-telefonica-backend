@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="springframework.security.spring.core" type="repository">
+    <properties maven-id="org.springframework.security:spring-security-core:5.4.7" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/spring-security-core-5.4.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-aop-5.2.15.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-beans-5.2.15.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-context-5.2.15.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-core-5.2.15.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-jcl-5.2.15.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-expression-5.2.15.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
