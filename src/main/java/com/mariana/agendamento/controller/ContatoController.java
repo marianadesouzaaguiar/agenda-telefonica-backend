@@ -2,59 +2,56 @@ package com.mariana.agendamento.controller;
 
 import com.mariana.agendamento.model.Contato;
 import com.mariana.agendamento.repository.ContatoRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.*;
+import java.util.List;
 
-@CrossOrigin(origins = "*")
 @RestController
-@RequestMapping("/api/contatos")
+@RequestMapping("/contatos")
 public class ContatoController {
 
-    private final ContatoRepository contatoRepository;
-
-    public ContatoController(ContatoRepository contatoRepository) {
-        this.contatoRepository = contatoRepository;
-    }
+    @Autowired
+    private ContatoRepository contatoRepository;
 
     @GetMapping
-    public List<Contato> listar() {
-        return contatoRepository.findByAtivo("S");
+    public List<Contato> listarContatos() {
+        return contatoRepository.findAll();
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<Contato> buscarPorId(@PathVariable Long id) {
+        return contatoRepository.findById(id)
+                .map(contato -> ResponseEntity.ok(contato))
+                .orElse(ResponseEntity.notFound().build());
     }
 
     @PostMapping
-    public ResponseEntity<?> criar(@RequestBody Contato contato) {
-        if (contatoRepository.findByCelular(contato.getCelular()).isPresent()) {
-            return ResponseEntity.badRequest().body("Já existe um contato com esse número de celular.");
-        }
-        return ResponseEntity.ok(contatoRepository.save(contato));
+    public Contato criar(@RequestBody Contato contato) {
+        return contatoRepository.save(contato);
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<?> atualizar(@PathVariable Long id, @RequestBody Contato atualizado) {
-        return contatoRepository.findById(id).map(contato -> {
-            contato.setNome(atualizado.getNome());
-            contato.setEmail(atualizado.getEmail());
-            contato.setTelefone(atualizado.getTelefone());
-            contato.setCelular(atualizado.getCelular());
-            return ResponseEntity.ok(contatoRepository.save(contato));
-        }).orElse(ResponseEntity.notFound().build());
+    public ResponseEntity<Contato> atualizar(@PathVariable Long id, @RequestBody Contato contatoAtualizado) {
+        return contatoRepository.findById(id)
+                .map(contato -> {
+                    contato.setNome(contatoAtualizado.getNome());
+                    contato.setEmail(contatoAtualizado.getEmail());
+                    contato.setCelular(contatoAtualizado.getCelular());
+                    contato.setTelefone(contatoAtualizado.getTelefone());
+                    contato.setFavorito(contatoAtualizado.getFavorito());
+                    contato.setAtivo(contatoAtualizado.getAtivo());
+                    return ResponseEntity.ok(contatoRepository.save(contato));
+                }).orElse(ResponseEntity.notFound().build());
     }
 
-    @PatchMapping("/{id}/inativar")
-    public ResponseEntity<?> inativar(@PathVariable Long id) {
-        return contatoRepository.findById(id).map(contato -> {
-            contato.setAtivo("N");
-            return ResponseEntity.ok(contatoRepository.save(contato));
-        }).orElse(ResponseEntity.notFound().build());
-    }
-
-    @PatchMapping("/{id}/favorito")
-    public ResponseEntity<?> toggleFavorito(@PathVariable Long id) {
-        return contatoRepository.findById(id).map(contato -> {
-            contato.setFavorito("S".equals(contato.getFavorito()) ? "N" : "S");
-            return ResponseEntity.ok(contatoRepository.save(contato));
-        }).orElse(ResponseEntity.notFound().build());
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> deletar(@PathVariable Long id) {
+        if (contatoRepository.existsById(id)) {
+            contatoRepository.deleteById(id);
+            return ResponseEntity.noContent().build();
+        }
+        return ResponseEntity.notFound().build();
     }
 }

@@ -16,7 +16,6 @@ public class Contato {
     private String email;
     private String telefone;
 
-    // Armazenado como "S" ou "N" no banco
     @Column(length = 1)
     private String favorito = "N";
 
