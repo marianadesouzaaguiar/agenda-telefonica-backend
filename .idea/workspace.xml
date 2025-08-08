@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d568db22-e7a7-4a95-a2aa-510eef33f3d7" name="Changes" comment="integracao de API e criacao de bd" />
+    <list default="true" id="d568db22-e7a7-4a95-a2aa-510eef33f3d7" name="Changes" comment="integracao de API e criacao de bd">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/AgendamentoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/AgendamentoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/model/Contato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/model/Contato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +55,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="17" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -84,11 +96,11 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/Mariana/Downloads/agendamento/agendamento/agenda-telefonica-backend/src/Main.java",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -160,7 +172,8 @@
       <workItem from="1754525338501" duration="17766000" />
       <workItem from="1754545901915" duration="11193000" />
       <workItem from="1754583526021" duration="10055000" />
-      <workItem from="1754601828717" duration="21825000" />
+      <workItem from="1754601828717" duration="25854000" />
+      <workItem from="1754632640167" duration="2299000" />
     </task>
     <task id="LOCAL-00001" summary="integracao de API e criacao de bd">
       <option name="closed" value="true" />
