@@ -5,29 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d568db22-e7a7-4a95-a2aa-510eef33f3d7" name="Changes" comment="integracao de API e criacao de bd">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/apigee_edge_config_maven_plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/giffing_bucket4j_spring_boot_starter_springboot1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/github_lordrex34_config_commons_annotation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/springframework_build_aws_maven.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/springframework_security_spring_core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/vanillasource_config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agendamento.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/HelloWorldController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/agenda/AgendaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/config/AuthenticationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/dto/AuthRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/dto/AuthRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/dto/AuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/dto/AuthResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/controller/ContatoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/controller/ContatoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/model/Contato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/model/Contato.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/repository/ContatoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/repository/ContatoRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +53,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -112,7 +94,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -184,7 +166,7 @@
       <workItem from="1754525338501" duration="17766000" />
       <workItem from="1754545901915" duration="11193000" />
       <workItem from="1754583526021" duration="10055000" />
-      <workItem from="1754601828717" duration="14129000" />
+      <workItem from="1754601828717" duration="19951000" />
     </task>
     <task id="LOCAL-00001" summary="integracao de API e criacao de bd">
       <option name="closed" value="true" />

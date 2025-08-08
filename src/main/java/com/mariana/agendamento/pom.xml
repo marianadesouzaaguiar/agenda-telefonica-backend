@@ -75,12 +75,13 @@
             <version>42.7.2</version>
         </dependency>
 
-        <!-- Lombok (opcional, mas útil) -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <optional>true</optional>
+            <version>1.18.30</version> <!-- ou versão mais recente -->
+            <scope>provided</scope>
         </dependency>
+
 
         <!-- Testes -->
         <dependency>
