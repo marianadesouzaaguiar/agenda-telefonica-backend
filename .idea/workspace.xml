@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d568db22-e7a7-4a95-a2aa-510eef33f3d7" name="Changes" comment="integracao de API e criacao de bd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/controller/ContatoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/controller/ContatoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/model/Contato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/model/Contato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/repository/ContatoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/repository/ContatoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +163,7 @@
       <workItem from="1754525338501" duration="17766000" />
       <workItem from="1754545901915" duration="11193000" />
       <workItem from="1754583526021" duration="10055000" />
-      <workItem from="1754601828717" duration="19951000" />
+      <workItem from="1754601828717" duration="21527000" />
     </task>
     <task id="LOCAL-00001" summary="integracao de API e criacao de bd">
       <option name="closed" value="true" />
