@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d568db22-e7a7-4a95-a2aa-510eef33f3d7" name="Changes" comment="integracao de API e criacao de bd">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/repository/ContatoRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/controller/ContatoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/controller/ContatoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mariana/agendamento/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mariana/agendamento/controller/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mariana/agendamento/controller/ContatoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mariana/agendamento/controller/ContatoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mariana/agendamento/repository/ContatoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mariana/agendamento/repository/ContatoRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mariana/agendamento/service/ContatoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mariana/agendamento/service/ContatoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/service/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/service/CustomUserDetailsService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +173,7 @@
       <workItem from="1754583526021" duration="10055000" />
       <workItem from="1754601828717" duration="25854000" />
       <workItem from="1754632640167" duration="9236000" />
-      <workItem from="1754752826736" duration="36821000" />
+      <workItem from="1754752826736" duration="38173000" />
     </task>
     <task id="LOCAL-00001" summary="integracao de API e criacao de bd">
       <option name="closed" value="true" />
