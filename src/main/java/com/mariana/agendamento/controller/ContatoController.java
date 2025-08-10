@@ -1,7 +1,7 @@
 package com.mariana.agendamento.controller;
 
-import com.mariana.agendamento.service.ContatoService;
 import com.mariana.agendamento.model.Contato;
+import com.mariana.agendamento.service.ContatoService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
