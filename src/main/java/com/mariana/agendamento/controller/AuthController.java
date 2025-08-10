@@ -19,6 +19,17 @@ public class AuthController {
         this.authService = authService;
     }
 
+    @PostMapping("/register")
+    public ResponseEntity<?> register(@RequestBody RegisterRequest request) {
+        try {
+            AuthResponse response = authService.register(request);
+            return ResponseEntity.ok(response);
+        } catch (RuntimeException e) {
+            // por exemplo: email já cadastrado
+            return ResponseEntity.badRequest().body(e.getMessage());
+        }
+    }
+
     @PostMapping("/login")
     public ResponseEntity<?> login(@RequestBody LoginRequest request) {
         try {
@@ -33,19 +44,8 @@ public class AuthController {
         }
     }
 
-    @PostMapping("/register")
-    public ResponseEntity<?> register(@RequestBody RegisterRequest request) {
-        try {
-            AuthResponse response = authService.register(request);
-            return ResponseEntity.ok(response);
-        } catch (Exception e) {
-            return ResponseEntity.status(400).body("Erro no registro: " + e.getMessage());
-        }
-    }
-
     @GetMapping("/test")
     public ResponseEntity<String> test() {
         return ResponseEntity.ok("Autenticado com sucesso!");
     }
-
 }

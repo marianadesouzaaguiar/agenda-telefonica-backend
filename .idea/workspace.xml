@@ -7,7 +7,11 @@
     <list default="true" id="d568db22-e7a7-4a95-a2aa-510eef33f3d7" name="Changes" comment="integracao de API e criacao de bd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/service/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/service/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/security/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/service/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mariana/agendamento/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mariana/agendamento/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mariana/agendamento/service/CustomUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mariana/agendamento/service/CustomUserDetailsService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +177,7 @@
       <workItem from="1754583526021" duration="10055000" />
       <workItem from="1754601828717" duration="25854000" />
       <workItem from="1754632640167" duration="9236000" />
-      <workItem from="1754752826736" duration="38173000" />
+      <workItem from="1754752826736" duration="40194000" />
     </task>
     <task id="LOCAL-00001" summary="integracao de API e criacao de bd">
       <option name="closed" value="true" />
