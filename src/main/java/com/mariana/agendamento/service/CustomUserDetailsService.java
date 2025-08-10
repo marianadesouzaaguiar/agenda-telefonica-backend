@@ -1,4 +1,4 @@
-package com.mariana.agendamento.security;
+package com.mariana.agendamento.service;
 
 import com.mariana.agendamento.model.Usuario;
 import com.mariana.agendamento.repository.UserRepository;
@@ -10,12 +10,12 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 
-@Service
-public class UserDetailsServiceImpl implements UserDetailsService {
+@Service("customUserDetailsService")
+public class CustomUserDetailsService implements UserDetailsService {
 
     private final UserRepository userRepository;
 
-    public UserDetailsServiceImpl(UserRepository userRepository) {
+    public CustomUserDetailsService(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
 

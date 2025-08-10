@@ -29,7 +29,8 @@ public class ContatoService {
     }
 
     public Contato atualizar(Long id, Contato atualizado) {
-        Contato contato = repository.findById(id).orElseThrow();
+        Contato contato = repository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Contato não encontrado para atualização"));
         contato.setNome(atualizado.getNome());
         contato.setEmail(atualizado.getEmail());
         contato.setTelefone(atualizado.getTelefone());
@@ -38,13 +39,15 @@ public class ContatoService {
     }
 
     public void inativar(Long id) {
-        Contato contato = repository.findById(id).orElseThrow();
+        Contato contato = repository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Contato não encontrado para inativar"));
         contato.setAtivo("N");
         repository.save(contato);
     }
 
     public void marcarFavorito(Long id) {
-        Contato contato = repository.findById(id).orElseThrow();
+        Contato contato = repository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Contato não encontrado para marcar favorito"));
         contato.setFavorito(contato.getFavorito().equals("S") ? "N" : "S");
         repository.save(contato);
     }

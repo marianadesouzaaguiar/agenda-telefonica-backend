@@ -3,6 +3,8 @@ package com.mariana.agendamento.model;
 import jakarta.persistence.*;
 import lombok.Data;
 
+import java.time.LocalDateTime;
+
 @Entity
 @Data
 public class Contato {
@@ -21,4 +23,7 @@ public class Contato {
 
     @Column(length = 1)
     private String ativo = "S";
+
+    private LocalDateTime dataCadastro;
+
 }
