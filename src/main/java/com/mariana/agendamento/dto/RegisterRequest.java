@@ -11,5 +11,5 @@ public class RegisterRequest {
     private String email;
     private String senha;
     private String telefone;
-    private String dataNascimento; // depois convertemos para LocalDate
+    private String dataNascimento;
 }

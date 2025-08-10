@@ -1,4 +1,5 @@
 com\mariana\agendamento\dto\AuthResponse.class
+com\mariana\agendamento\controller\HomeController.class
 com\mariana\agendamento\dto\RegisterRequest$RegisterRequestBuilder.class
 com\mariana\agendamento\exception\ResourceNotFoundException.class
 com\mariana\agendamento\model\Contato.class

@@ -28,26 +28,37 @@ public class ContatoService {
         return repository.findAll();
     }
 
+    public Contato buscarPorId(Long id) {
+        return repository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Contato não encontrado"));
+    }
+
     public Contato atualizar(Long id, Contato atualizado) {
-        Contato contato = repository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Contato não encontrado para atualização"));
+        Contato contato = buscarPorId(id);
         contato.setNome(atualizado.getNome());
         contato.setEmail(atualizado.getEmail());
         contato.setTelefone(atualizado.getTelefone());
         contato.setCelular(atualizado.getCelular());
+        contato.setFavorito(atualizado.getFavorito());
+        contato.setAtivo(atualizado.getAtivo());
         return repository.save(contato);
     }
 
+    public void deletar(Long id) {
+        if (!repository.existsById(id)) {
+            throw new RuntimeException("Contato não encontrado para deletar");
+        }
+        repository.deleteById(id);
+    }
+
     public void inativar(Long id) {
-        Contato contato = repository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Contato não encontrado para inativar"));
+        Contato contato = buscarPorId(id);
         contato.setAtivo("N");
         repository.save(contato);
     }
 
     public void marcarFavorito(Long id) {
-        Contato contato = repository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Contato não encontrado para marcar favorito"));
+        Contato contato = buscarPorId(id);
         contato.setFavorito(contato.getFavorito().equals("S") ? "N" : "S");
         repository.save(contato);
     }
