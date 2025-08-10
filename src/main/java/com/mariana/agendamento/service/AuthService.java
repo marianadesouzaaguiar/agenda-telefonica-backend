@@ -40,20 +40,18 @@ public class AuthService {
     }
 
     public AuthResponse authenticate(LoginRequest request) {
+        var userOpt = userRepository.findByEmail(request.getEmail());
+        if(userOpt.isEmpty()) {
+            throw new UsernameNotFoundException("Usuário não encontrado");
+        }
+        System.out.println("Usuário encontrado: " + userOpt.get().getEmail());
         authenticationManager.authenticate(
                 new UsernamePasswordAuthenticationToken(request.getEmail(), request.getSenha())
         );
 
-        Usuario user = userRepository.findByEmail(request.getEmail())
-                .orElseThrow(() -> new UsernameNotFoundException("Usuário não encontrado"));
-
-        String jwtToken = jwtService.generateToken(user);
+        String jwtToken = jwtService.generateToken(userOpt.get());
         return new AuthResponse(jwtToken);
     }
 
-    @Bean
-    public PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder();
-    }
 
 }
