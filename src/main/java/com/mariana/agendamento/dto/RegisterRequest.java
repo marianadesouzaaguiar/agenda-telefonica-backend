@@ -1,6 +1,10 @@
 package com.mariana.agendamento.dto;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import java.time.LocalDate;
 
 @Data
 @AllArgsConstructor
@@ -11,5 +15,5 @@ public class RegisterRequest {
     private String email;
     private String senha;
     private String telefone;
-    private String dataNascimento;
+    private LocalDate dataNascimento;
 }

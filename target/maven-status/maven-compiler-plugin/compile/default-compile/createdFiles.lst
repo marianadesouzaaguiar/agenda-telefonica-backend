@@ -9,7 +9,6 @@ com\mariana\agendamento\dto\LoginResponse.class
 com\mariana\agendamento\service\ContatoService.class
 com\mariana\agendamento\model\Usuario$UsuarioBuilder.class
 com\mariana\agendamento\repository\UserRepository.class
-com\mariana\agendamento\model\ERole.class
 com\mariana\agendamento\dto\RegisterRequest.class
 com\mariana\agendamento\security\JwtAuthenticationFilter.class
 com\mariana\agendamento\HelloWorldController.class
