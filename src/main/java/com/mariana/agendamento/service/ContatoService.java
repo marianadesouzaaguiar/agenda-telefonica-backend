@@ -51,15 +51,16 @@ public class ContatoService {
         repository.deleteById(id);
     }
 
-    public void inativar(Long id) {
+    public Contato inativar(Long id) {
         Contato contato = buscarPorId(id);
         contato.setAtivo("N");
-        repository.save(contato);
+        return repository.save(contato);
     }
 
-    public void marcarFavorito(Long id) {
+    public Contato marcarFavorito(Long id) {
         Contato contato = buscarPorId(id);
         contato.setFavorito(contato.getFavorito().equals("S") ? "N" : "S");
-        repository.save(contato);
+        return repository.save(contato);
     }
+
 }

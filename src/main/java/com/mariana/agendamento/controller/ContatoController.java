@@ -65,18 +65,19 @@ public class ContatoController {
     @PatchMapping("/{id}/inativar")
     public ResponseEntity<?> inativar(@PathVariable Long id) {
         try {
-            contatoService.inativar(id);
-            return ResponseEntity.noContent().build();
+            Contato atualizado = contatoService.inativar(id);
+            return ResponseEntity.ok(atualizado); // agora devolve o contato alterado
         } catch (RuntimeException e) {
             return ResponseEntity.notFound().build();
         }
     }
 
+
     @PatchMapping("/{id}/favorito")
     public ResponseEntity<?> marcarFavorito(@PathVariable Long id) {
         try {
-            contatoService.marcarFavorito(id);
-            return ResponseEntity.noContent().build();
+            Contato atualizado = contatoService.marcarFavorito(id);
+            return ResponseEntity.ok(atualizado); // idem
         } catch (RuntimeException e) {
             return ResponseEntity.notFound().build();
         }

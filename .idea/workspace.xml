@@ -5,20 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d568db22-e7a7-4a95-a2aa-510eef33f3d7" name="Changes" comment="integracao de API e criacao de bd">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/dto/AuthRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/dto/AuthRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/dto/AuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/dto/AuthResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/dto/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/dto/LoginRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/dto/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/dto/RegisterRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/service/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mariana/agendamento/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mariana/agendamento/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/controller/ContatoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/controller/ContatoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/service/ContatoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariana/agendamento/service/ContatoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/mariana/agendamento/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mariana/agendamento/controller/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mariana/agendamento/model/ERole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mariana/agendamento/service/JwtService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mariana/agendamento/service/JwtService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mariana/agendamento/dto/AuthRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mariana/agendamento/dto/AuthRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mariana/agendamento/dto/LoginRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mariana/agendamento/dto/LoginRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mariana/agendamento/service/AuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mariana/agendamento/service/AuthService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
